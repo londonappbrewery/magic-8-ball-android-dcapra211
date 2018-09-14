@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Log.d("Magic Eight Ball", "Ask button pressed.");
                 Random randomNumberGenerator = new Random();
-                int number = randomNumberGenerator.nextInt(4);
+                int number = randomNumberGenerator.nextInt(5);
                 ballDisplay.setImageResource(ballArray[number]);
             }
         });
